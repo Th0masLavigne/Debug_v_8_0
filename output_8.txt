@@ -1,0 +1,32 @@
+Info    : Reading './Mesh_large.msh'...
+Info    : 49 entities
+Info    : 5760 nodes
+Info    : 31766 elements
+Info    : Done reading './Mesh_large.msh'
+All cell tags have been attributed
+pression imposee=  50.0
+2024-06-04 11:47:26.225 (   1.454s) [main            ]    SparsityPattern.cpp:385   INFO| Column ghost size increased from 0 to 0
+step:  1 / 6  load:  -0.0  Pa
+1 / 6
+2024-06-04 11:47:28.642 (   3.871s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 11:57:47.598 ( 622.827s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 12:07:41.882 (1217.110s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 2: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 12:07:44.386 (1219.615s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 12:17:39.289 (1814.517s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 3: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 12:17:41.906 (1817.134s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 12:27:38.074 (2413.302s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 4: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 12:27:40.598 (2415.826s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 12:37:35.929 (3011.157s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 5: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 12:37:38.405 (3013.633s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 12:47:32.391 (3607.619s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 6: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 12:47:34.898 (3610.126s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 12:57:29.974 (4205.203s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 7: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 12:57:32.503 (4207.732s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 13:07:27.497 (4802.725s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 8: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 13:07:29.980 (4805.208s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 13:17:25.018 (5400.246s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 9: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+2024-06-04 13:17:27.526 (5402.754s) [main            ]              petsc.cpp:700   INFO| PETSc Krylov solver starting to solve system.
+2024-06-04 13:27:23.456 (5998.685s) [main            ]       NewtonSolver.cpp:38    INFO| Newton iteration 10: r (abs) = -nan (tol = 1e-10) r (rel) = -nan(tol = 1e-11)
+*************
+Solver failed
+*************
