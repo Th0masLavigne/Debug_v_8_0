@@ -167,17 +167,17 @@ updated_mesh_space    = functionspace(mesh, mesh.ufl_domain().ufl_coordinate_ele
 # Parameter space
 DG0_space = functionspace(mesh, ("DG", 0))
 # Mixed Space (R2,R) -> (u,p)
-CG1_v     = element("CG", mesh.topology.cell_name(), degree=1, shape=(mesh.topology.dim,))
-CG2       = element("CG", mesh.topology.cell_name(), degree=2, shape=(mesh.topology.dim,))
-CG1       = element("CG", mesh.topology.cell_name(), degree=1)
+P1_v     = element("P", mesh.topology.cell_name(), degree=1, shape=(mesh.topology.dim,))
+P2       = element("P", mesh.topology.cell_name(), degree=2, shape=(mesh.topology.dim,))
+P1       = element("P", mesh.topology.cell_name(), degree=1)
 
 # 
-CG1v_space        = functionspace(mesh, CG1_v)
-CG2_space 	      = functionspace(mesh, CG2)
-CG1_space 		  = functionspace(mesh, CG1)
-MS                = functionspace(mesh=mesh, element=mixed_element([CG2,CG1,CG1]))
+P1v_space        = functionspace(mesh, P1_v)
+P2_space 	      = functionspace(mesh, P2)
+P1_space 		  = functionspace(mesh, P1)
+MS                = functionspace(mesh=mesh, element=mixed_element([P2,P1,P1]))
 # 
-tensor_elem  = element("CG", mesh.topology.cell_name(), degree=1, shape=(3,3))
+tensor_elem  = element("P", mesh.topology.cell_name(), degree=1, shape=(3,3))
 tensor_space = functionspace(mesh, tensor_elem)
 # 
 # 
